@@ -1,0 +1,114 @@
+html, body {
+  height: 1400px;  
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 30em;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sidebar {
+    height: 100%;
+    width: 400px;
+    background-color: grey;
+    color: black;
+    padding-top: 1em;
+    
+    
+}
+section {
+    font-weight: bold;
+    font-size: 24px;
+}
+ul {
+   padding-left: 60px;
+    padding-right: 60px; 
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.cards p {
+    width: 14em;
+    height: auto;
+    background-color: rgb(147, 231, 227);
+    margin-left: 2em;
+    padding-top: 85px;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200;
+    margin-top: 3em;
+    background-color: black;
+    color: blanchedalmond;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+} 
+.summary {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    width: 20%;
+}
+a  {
+    text-decoration: none;
+}
+ li { 
+    list-style-type:none;
+}
+li main {
+    list-style-type: disc;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    padding-top: 2em;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    padding-top: 1em;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    padding-top: 1em;
+}
+.copy {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-top: 3px solid  blanchedalmond;
+}
+.service li {
+    padding-bottom: 2em;
+}
+.about li ,
+.social li {
+    
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
